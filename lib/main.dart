@@ -32,6 +32,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  String? textFromNative;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,11 +45,26 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text.rich(
+              TextSpan(
+                text: 'Text from the other side::',
+                style: Theme.of(context).textTheme.bodyLarge,
+                children: [
+                  TextSpan(
+                    text: textFromNative,
+                    style: Theme.of(context).textTheme.headlineSmall,
+                  )
+                ],
+              ),
+            ),
             const SizedBox(height: 20),
             MaterialButton(
               onPressed: () async {
                 final data = await callNativeCode();
-                print("Result ::: $data");
+
+                setState(() {
+                  textFromNative = data;
+                });
               },
               child: const Text('Call native code'),
             )
