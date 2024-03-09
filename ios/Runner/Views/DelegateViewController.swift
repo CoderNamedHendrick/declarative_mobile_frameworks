@@ -11,6 +11,6 @@ class DelegateViewController : UINavigationController, DelegateProtocol {
     var result : FlutterResult?
     
     func popViewController(string: String) {
-        result?(string)
+        result?(.success(string))
     }
 }

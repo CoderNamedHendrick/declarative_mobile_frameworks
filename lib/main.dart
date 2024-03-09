@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_declarative_ui/native_channel.dart';
+import 'package:mobile_declarative_ui/native_api/native_moible_ui.dart';
 
 void main() {
   runApp(const MyApp());
@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 20),
             MaterialButton(
               onPressed: () async {
-                final data = await navigateToNative();
+                final data = await getNativeUiResult();
 
                 setState(() {
                   textFromNative = data;
