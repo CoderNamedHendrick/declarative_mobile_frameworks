@@ -17,7 +17,7 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		FFE6BE3B2B9C357600E0A9EB /* NativeMobileUi.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BE3A2B9C357600E0A9EB /* NativeMobileUi.g.swift */; };
+		FF1880AE2BA7F0C8007C2C4D /* NativeMobileUi.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1880AD2BA7F0C8007C2C4D /* NativeMobileUi.g.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFE6BE3A2B9C357600E0A9EB /* NativeMobileUi.g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeMobileUi.g.swift; sourceTree = "<group>"; };
+		FF1880AD2BA7F0C8007C2C4D /* NativeMobileUi.g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeMobileUi.g.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +134,8 @@
 				97C147021CF9000F007C117D /* Info.plist */,
 				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
-				FFE6BE3A2B9C357600E0A9EB /* NativeMobileUi.g.swift */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
+				FF1880AD2BA7F0C8007C2C4D /* NativeMobileUi.g.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
 			);
 			path = Runner;
@@ -293,7 +293,7 @@
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 				407D6B022AB8880500DA3E46 /* SwiftUIView.swift in Sources */,
-				FFE6BE3B2B9C357600E0A9EB /* NativeMobileUi.g.swift in Sources */,
+				FF1880AE2BA7F0C8007C2C4D /* NativeMobileUi.g.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
