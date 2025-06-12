@@ -4,7 +4,7 @@ import Flutter
 
 typealias FlutterResult = (Result<String, Error>) -> Void
 
-@UIApplicationMain
+@main
 @objc class AppDelegate: FlutterAppDelegate, NativeMobileHostApi {
     private var navigationController: DelegateViewController? = nil
     
