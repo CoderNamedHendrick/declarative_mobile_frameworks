@@ -9,8 +9,7 @@ import 'package:pigeon/pigeon.dart';
     dartPackageName: 'native_mobile_ui',
   ),
 )
-@HostApi()
-abstract class NativeMobileHostApi {
-  @async
-  String getNativeUiResult();
+@FlutterApi()
+abstract class NativeMobileFlutterApi {
+  void onSumResult(String result);
 }

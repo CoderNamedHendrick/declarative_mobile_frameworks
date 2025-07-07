@@ -5,14 +5,28 @@
 //  Created by Sebastine Odeh on 18/09/2023.
 //
 
-
 import SwiftUI
 
 struct SwiftUIView: View {
-    @State private var input1: String = "";
-    @State private var input2: String = "";
+    
     weak var navigationController: UINavigationController?
     weak var delegate: DelegateProtocol?
+    
+    var body: some View {
+        SwiftUIBody(
+            onClick: { message in
+                delegate?.popViewController(string: message)
+                navigationController?.popViewController(animated: true)
+            }
+        )
+    }
+}
+
+struct SwiftUIBody: View {
+    @State private var input1: String = "";
+    @State private var input2: String = "";
+    
+    let onClick: (_ value: String) -> Void
     
     var body: some View {
         VStack(alignment: .center) {
@@ -38,8 +52,7 @@ struct SwiftUIView: View {
             
             Button(action: {
                 let message: String = "\(calculateInputs())";
-                delegate?.popViewController(string: message)
-                navigationController?.popViewController(animated: true)
+                onClick(message)
             }) {
                 Text("Send sum to flutter")
             }
@@ -66,6 +79,9 @@ extension View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        SwiftUIBody(onClick: { _ in
+            
+        },
+        )
     }
 }

@@ -1,4 +1,4 @@
-package com.example.mobile_declarative_ui
+opackage com.example.mobile_declarative_ui
 
 import android.content.Intent
 import android.os.Bundle

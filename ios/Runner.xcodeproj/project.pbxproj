@@ -18,6 +18,7 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		FF1880AE2BA7F0C8007C2C4D /* NativeMobileUi.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1880AD2BA7F0C8007C2C4D /* NativeMobileUi.g.swift */; };
+		FF84B0C02E1BF0BB001DFD1A /* NativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF84B0BF2E1BF0B6001DFD1A /* NativeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF1880AD2BA7F0C8007C2C4D /* NativeMobileUi.g.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeMobileUi.g.swift; sourceTree = "<group>"; };
+		FF84B0BF2E1BF0B6001DFD1A /* NativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				97C147021CF9000F007C117D /* Info.plist */,
 				1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */,
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
+				FF84B0BF2E1BF0B6001DFD1A /* NativeView.swift */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				FF1880AD2BA7F0C8007C2C4D /* NativeMobileUi.g.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
@@ -294,6 +297,7 @@
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 				407D6B022AB8880500DA3E46 /* SwiftUIView.swift in Sources */,
 				FF1880AE2BA7F0C8007C2C4D /* NativeMobileUi.g.swift in Sources */,
+				FF84B0C02E1BF0BB001DFD1A /* NativeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
